@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f0568;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area h1 {
+  display: inline;
+  /* border: 2px solid red; */
+}
+
+header div.logo-area {
+  display: flex;
+}
+
+header div.photo {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-image: url('./man_at_desk.jpg');
+  border-radius: 50%;
+}
+
+header div {
+  background-color: #725bf5;
+  width: 600px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+header div h1 {
+  color: #111d26;
+  font-size: 40px;
+}
+
+nav {
+  padding-right: 100px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 12px;
+}
+
+section div.section-title {
+  display: flex;
+  width: 25%;
+  border-right: 4px solid #111d26;
+  text-align: right;
+  padding-right: 10px;
+}
+
+section div.section-content {
+  width: 75%;
+  /* outline: 1px solid red; */
+}
+
+div.work-items {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.work-items div {
+  background-color: #ddd;
+  /* width: 50%; */
+  /* height: 240px; */
+  outline: 2px solid white;
+}
+
+/* div.work-items div.main-item {
+   width: 100%; 
+} */
+
+div.contact-info {
+  width: 75%;
+}
+
+
+@media screen and (max-width: 600px) {
+  section {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  section div.section-title {
+    width: 100%;
+    border-right: none;
+    border-bottom: 4px solid blue;
+  }
+
+  section div.section-content {
+    width: 100%;
+  }
+
+  div.work-items {
+    width: 100%;
+  }
+  div.main-item img {
+    max-width: 400px;
+  }
+}
