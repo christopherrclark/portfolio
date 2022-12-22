@@ -7,5 +7,5 @@ Here is a link to the final version of the project:
 
 [Click here to see my Portfolio.](https://christopherrclark.github.io/portfolio/)
 
-![Click here is a screen shot of my Portfolio](./assets/images/portfolioscreenshot.png)
+![Click here is a screen shot of my Portfolio](./assets/images/portfolioscreenshot1.png)
 
