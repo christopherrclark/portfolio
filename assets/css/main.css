@@ -35,13 +35,13 @@ header div.logo-area {
   border-radius: 50%;
 }
 
-header div.photo {
+/* header div.photo {
   width: 120px;
   height: 120px;
   background-size: cover;
   background-image: url('./man_at_desk.jpg');
   border-radius: 50%;
-}
+} */
 
 header div {
   background-color: #725bf5;
